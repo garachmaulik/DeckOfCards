@@ -71,5 +71,5 @@ public class Card implements Comparable<Card>
 		final Card card = card_cache.get(cardKey(rank,suit));
 		return card;
 	}
-
+	
 }
